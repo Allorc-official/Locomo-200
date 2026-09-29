@@ -126,8 +126,7 @@ locomo-200-benchmark/
   licensed **CC BY-NC 4.0**. This package redistributes a *filtered subset* (200 questions;
   open-domain and unverifiable items removed — an adaptation). See `NOTICE.md` for the
   required attribution and `dataset/README.md` for the dataset card.
-- **Code** (`runner/`, `judge/`): MIT (see `LICENSE`). Replace with your preferred license
-  if you are publishing this package yourself.
+- **Code** (`runner/`, `judge/`): MIT (see `LICENSE`).
 
 If you use LoCoMo or this benchmark, cite the original paper:
 
@@ -139,17 +138,3 @@ If you use LoCoMo or this benchmark, cite the original paper:
   year={2024}
 }
 ```
-
-## Publishing checklist
-
-Before making this package public:
-
-1. **Keep `NOTICE.md`** with the dataset files — CC BY-NC 4.0 requires attribution and a
-   notice of the modifications made here.
-2. **Confirm the dataset license** allows your distribution context (non-commercial only).
-3. **Choose the code license** in `LICENSE` (MIT is provided as a default; replace it if
-   your organization requires something else). Keep the split-license note.
-4. Verify the dataset hash: `sha256sum dataset/locomo200.json` should equal
-   `411ec27105f3c7b632b9b509f9e25149c7c937cf971c053fb3c7e863a6627a5c`.
-5. Run the smoke test end-to-end (start the example adapter, run 2 questions, judge them)
-   to confirm the package works from a clean checkout.
