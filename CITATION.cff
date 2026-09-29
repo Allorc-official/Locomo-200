@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, cite the LoCoMo paper and this package."
+title: "LoCoMo-200 — Long-Term Conversational Memory Benchmark"
+abstract: "A filtered, text-verifiable 200-question subset of LoCoMo (ACL 2024) for evaluating long-horizon conversational memory of AI agents end-to-end, with a runner and a strict semantic judge."
+version: "1.0.0"
+date-released: "2026-09-29"
+license: "MIT (code); CC BY-NC 4.0 (dataset)"
+references:
+  - type: article
+    title: "Evaluating Very Long-Term Conversational Memory of LLM Agents"
+    authors:
+      - family-names: Maharana
+        given-names: Adyasha
+      - family-names: Lee
+        given-names: Dong-Ho
+      - family-names: Tulyakov
+        given-names: Sergey
+      - family-names: Bansal
+        given-names: Mohit
+      - family-names: Barbieri
+        given-names: Francesco
+      - family-names: Fang
+        given-names: Yuwei
+    journal: "arXiv preprint arXiv:2402.17753"
+    year: 2024
+    url: "https://github.com/snap-research/locomo"
